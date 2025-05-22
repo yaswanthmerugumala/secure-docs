@@ -57,7 +57,7 @@ Secure Docs is a full-stack web application that allows users to upload, store, 
 
 ### Backend (Node.js)
 ```bash
-cd server
+cd backend
 npm install
 # Add your .env file with DB and JWT keys
 node server.js
@@ -65,9 +65,9 @@ node server.js
 
 ### Frontend (React)
 ```bash
-cd client
+cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ---
